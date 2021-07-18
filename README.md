@@ -29,7 +29,7 @@
 下载最新的 Halo 运行包：
 
 ```bash
-curl -L https://github.com/halo-dev/halo/releases/download/v1.4.8/halo-1.4.8.jar --output halo.jar
+curl -L https://github.com/halo-dev/halo/releases/download/v1.4.9/halo-1.4.9.jar --output halo.jar
 ```
 
 其他地址：https://docs.halo.run/install/downloads
@@ -48,7 +48,7 @@ docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=alwa
 
 ## 生态
 
-| 项目                                                                         | 版本                                                                                                                                                              | 描述                                     |
+| 项目                                                                         | 状态                                                                                                                                                              | 描述                                     |
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | [halo-admin](https://github.com/halo-dev/halo-admin)                         | <a href="https://www.npmjs.com/package/halo-admin"><img alt="npm release" src="https://img.shields.io/npm/v/halo-admin?style=flat-square"/></a>                   | Web 管理端 UI，已内置在主应用            |
 | [halo-comment](https://github.com/halo-dev/halo-comment)                     | <a href="https://www.npmjs.com/package/halo-comment"><img alt="npm release" src="https://img.shields.io/npm/v/halo-comment?style=flat-square"/></a>               | 独立评论组件，可以非常方便的集成到主题中 |
